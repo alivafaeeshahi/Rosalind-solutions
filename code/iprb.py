@@ -1,5 +1,3 @@
-from inspect import Parameter
-
 def read_data(file_name):
     import os
     current_path = os.path.dirname(__file__)
