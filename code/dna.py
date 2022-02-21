@@ -4,8 +4,8 @@ def read_data(file_name):
     new_path = os.path.join(current_path, '..', 'data')
     os.chdir(new_path)
 
-    sequence1 = open(file_name).read().rstrip()
-    return sequence1
+    sequence = open(file_name).read().rstrip()
+    return sequence
 
 def base_count(sequence):
     l_count = [sequence.count('A'), sequence.count('C'), sequence.count('G'), sequence.count('T')]
